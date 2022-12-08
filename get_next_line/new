@@ -1,0 +1,7 @@
+total 36
+drwxrwxr-x 2 yoni yoni  4096 Dec  8 00:50 .
+drwxrwxr-x 5 yoni yoni  4096 Dec  8 00:41 ..
+-rwxrwxr-x 1 yoni yoni 16232 Dec  8 00:50 a.out
+-rw-rw-r-- 1 yoni yoni  6148 Dec  8 00:41 .DS_Store
+-rw-rw-r-- 1 yoni yoni   713 Dec  8 00:49 get_next_line copy.c
+-rw-rw-r-- 1 yoni yoni     0 Dec  8 00:50 new
