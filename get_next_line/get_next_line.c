@@ -5,6 +5,21 @@
 
 // # define BUFFER_SIZE 1 
 
+/**
+* prepare for the exam
+*/
+char *get_next_line(int fd)
+{
+    if (BUFFER_SIZE <= 0 || fd < 0) return(NULL);
+    char *copy = malloc(sizeof(char) * 1000000), *tmp = copy;
+    while (read(fd, tmp, 1)) if (*(tmp++) == '\n') break;
+	*(tmp) = '\0';
+    return (copy[0] == '\0' ? NULL: copy);
+}
+
+/**
+* if u want to use calloc
+*/
 char *get_next_line(int fd)
 {
     if (BUFFER_SIZE <= 0 || fd < 0) return(NULL);
